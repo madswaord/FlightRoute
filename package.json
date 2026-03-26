@@ -1,0 +1,28 @@
+{
+  "name": "flightroute",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A visual map module for monitoring traffic destinations and route flows across hosts, devices, and network panels.",
+  "type": "module",
+  "main": "./render/index.ts",
+  "scripts": {
+    "check": "tsc --noEmit -p tsconfig.json"
+  },
+  "keywords": [
+    "traffic",
+    "map",
+    "visualization",
+    "network",
+    "routing",
+    "svg"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^6.0.2"
+  },
+  "exports": {
+    ".": "./render/index.ts",
+    "./render": "./render/index.ts",
+    "./assets/maps/world-atlantic.svg": "./assets/maps/world-atlantic.svg"
+  }
+}
