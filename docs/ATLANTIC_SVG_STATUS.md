@@ -14,5 +14,4 @@
 
 ## 暂不继续推进的旧路线
 
-- world-pacific GeoJSON
 - world-atlantic / seam v1/v2/v3 GeoJSON 实验图

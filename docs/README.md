@@ -12,12 +12,10 @@
 ## 当前文件
 
 ### 原始底图
+
 - `sources/world.standard.geojson`：标准 world geojson 输入
 
 ### 生成结果
-- `generated/world.pacific.geojson`：Pacific-centered 尝试版本
-- `generated/world.atlantic-shift.geojson`：简单经度平移版（已证明不可作为最终版本）
-- `generated/world.atlantic-seam.geojson`：Atlantic seam 切割实验版（当前最新实验结果）
 
 ## 备注
 
